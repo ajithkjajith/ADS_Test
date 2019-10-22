@@ -1,5 +1,6 @@
 #include <stdint.h>
 #include <assert.h>
+#include<stdio.h>
 #include "heap.h"
 
 void test_sort( int32_t data[], uint32_t len) 
