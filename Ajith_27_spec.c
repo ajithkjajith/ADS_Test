@@ -13,11 +13,11 @@ void test_sort( int32_t data[], uint32_t len)
 void emergency(Heap *heap,int32_t len)
 {
 	for(int i=0;i<=len;i++){
-	if(heap.timestamp[i] >= 630 && heap.timestamp[i]<=1130)
+	if(heap->timestamp[i] >= 630 && heap->timestamp[i]<=1130)
 	{
-		heap.timestamp[i] = 1200;
-		printf("flight affected is %d\n",heap.aircraft_num[i]);
-		printf("new schedule of affected flight is %d\n",heap.timestamp[i]);
+		heap->timestamp[i] = 1200;
+		printf("flight affected is %d\n",heap->aircraft_num[i]);
+		printf("new schedule of affected flight is %d\n",heap->timestamp[i]);
 	}
 }
 }
